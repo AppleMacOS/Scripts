@@ -55,7 +55,7 @@ touch eula.txt; printf "eula=true" >> eula.txt
 
 # Asks if you want to start the server right now
 if [[ "no" == $(yes_or_no "Do you want to start the server now? Must have screen installed!") ]]; then
-    echo "Scripted finished!"
+    echo "Script has finished!"
     exit 0
 fi
 
