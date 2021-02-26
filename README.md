@@ -6,7 +6,7 @@ Feel free to make an issue if it doesn't work on your OS, so I can look into mak
 
 ## Required programs
 
-For most scripts you'll need to have the fallowing installed on your system:
+For most scripts you'll need to have the following installed on your system:
 
 * Java
 * jq [(How to install jq)](https://stedolan.github.io/jq/download/)
