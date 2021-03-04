@@ -6,18 +6,13 @@ Feel free to make an issue if it doesn't work on your OS, so I can look into mak
 
 ## Required programs
 
-For most scripts you'll need to have the following installed on your system:
-
-* Java
-* jq [(How to install jq)](https://stedolan.github.io/jq/download/)
-* wget [(How to install wget)](https://phoenixnap.com/kb/wget-command-with-examples)
-* screen [(How to install screen)](https://phoenixnap.com/kb/how-to-use-linux-screen-with-commands)
+Please look at [this](SCRIPT-REQUIREMENTS.md) to see what programs each script requires.
  
 ## Usage
 
-All you have to do to run a script is run this commands. (Replace "script" with the script name)
+All you have to do to run a script is run this commands. (Replace "script-name" with the script name)
 
-`./script.sh`
+`./script-name.sh`
 
 ## Tested on
 
