@@ -21,7 +21,7 @@ fi
 # Asks for the Minecraft version you want to use
 echo -e "Please enter the version of Minecraft you want to use"; read version
 # Checks for the hash of the Minecraft version provided
-version_hash=`curl -sS -X GET "https://gist.githubusercontent.com/AppleMacOS/b16b018937e7982e0d7fc650d659fdaf/raw/b1bfac79f9e5db321d8fd4a450b4e49c73fa703b/vanilla-versions.json" -H  "accept: application/json" | jq --arg v "$version" '.[$v]'`
+version_hash=`curl -sS -X GET "https://gist.githubusercontent.com/AppleMacOS/b16b018937e7982e0d7fc650d659fdaf/raw/ff14eef6d933906a18f912a3996e666c9c0c60ac/vanilla-versions.json" -H  "accept: application/json" | jq --arg v "$version" '.[$v]'`
 # Checks to see if the provided version exists
 if [ $version_hash == null ]; then
     echo -e "$ERROR The Minecraft version you provided is invalid."
